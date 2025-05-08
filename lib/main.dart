@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:colorplanet/features/splash/presentation/pages/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,12 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Color Planet',
+      title: '涂色星球',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF2487FF)),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const SplashScreen(), // 启动时显示加载页面
     );
   }
 }
