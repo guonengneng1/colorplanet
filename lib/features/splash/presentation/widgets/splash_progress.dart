@@ -2,6 +2,10 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:colorplanet/core/theme/app_colors.dart';
 
+/// SplashProgress类
+///
+/// 加载页面的进度条组件
+/// 提供模拟加载进度的动画和加载完成后的回调功能
 class SplashProgress extends StatefulWidget {
   final VoidCallback onLoadingComplete;
 

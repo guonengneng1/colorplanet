@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:colorplanet/core/theme/app_colors.dart';
 
+/// NavItem类
+///
+/// 底部导航栏的单个导航项组件
+/// 展示图标、文本和选中状态，支持点击操作
+/// 用于构建底部导航栏的四个选项：Library、Selection、My Art和Profile
 class NavItem extends StatelessWidget {
   final IconData icon;
   final String label;

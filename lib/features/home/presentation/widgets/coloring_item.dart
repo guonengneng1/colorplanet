@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+/// ColoringItem类
+///
+/// 单个涂色图片项组件
+/// 展示一个可供涂色的图片，目前使用颜色块占位
+/// 未来可扩展为显示真实图片，支持点击进入涂色页面
 class ColoringItem extends StatelessWidget {
   final Color color;
 

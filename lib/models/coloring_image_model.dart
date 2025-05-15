@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 
-/// 涂色图片数据模型类
-/// 
-/// 用于表示一个可供涂色的图片，包含：
-/// - 图片的占位符颜色
-/// - 图片的URL地址（可选）
-/// 
-/// 主要用于管理涂色功能中的图片资源
+/// ColoringImageModel类
+///
+/// 涂色图片数据模型
+/// 用于存储和管理涂色图片数据，包括占位色和图片URL
+/// 未来可扩展添加图片ID、难度等级、分类等信息
 class ColoringImageModel {
   final Color placeholderColor;
   final String? imageUrl;

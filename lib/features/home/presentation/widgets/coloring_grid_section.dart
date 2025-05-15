@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:colorplanet/features/home/presentation/widgets/coloring_item.dart';
 
+/// ColoringGridSection类
+///
+/// 首页涂色图片网格组件
+/// 以网格形式展示多个可供涂色的图片，每行显示两个图片
+/// 支持用户选择图片进行涂色创作
 class ColoringGridSection extends StatelessWidget {
   final double screenWidth;
 

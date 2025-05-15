@@ -2,6 +2,11 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:colorplanet/core/theme/app_colors.dart';
 
+/// CarouselSection类
+///
+/// 首页轮播图组件
+/// 在首页顶部展示自动轮播的图片，每隔1秒自动切换一张图片
+/// 包含图片内容和底部的指示器
 class CarouselSection extends StatefulWidget {
   const CarouselSection({super.key});
 

@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:colorplanet/core/theme/app_colors.dart';
 import 'package:colorplanet/core/constants/app_constants.dart';
 
+/// CategorySection类
+///
+/// 首页分类导航组件
+/// 横向滚动展示各种图片分类，如For you, Oil Painting等
+/// 支持点击选择不同分类，并显示选中状态
 class CategorySection extends StatelessWidget {
   final int selectedIndex;
   final Function(int) onCategorySelected;

@@ -5,6 +5,10 @@ void main() {
   runApp(const MyApp());
 }
 
+/// MyApp类
+///
+/// 应用程序的根组件，负责初始化应用主题和路由设置
+/// 定义整个应用的全局配置，包括主题颜色、默认字体等
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 

@@ -3,6 +3,11 @@ import 'package:colorplanet/core/theme/app_colors.dart';
 import 'package:colorplanet/core/constants/app_constants.dart';
 import 'package:colorplanet/features/home/presentation/widgets/nav_item.dart';
 
+/// BottomNavSection类
+///
+/// 底部导航栏组件
+/// 提供应用的主要导航功能，包含Library、Selection、My Art和Profile四个选项
+/// 支持点击切换不同页面，并显示当前选中状态
 class BottomNavSection extends StatelessWidget {
   final int selectedIndex;
   final Function(int) onNavItemSelected;

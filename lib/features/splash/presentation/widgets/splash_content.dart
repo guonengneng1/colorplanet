@@ -4,6 +4,10 @@ import 'package:colorplanet/core/constants/app_constants.dart';
 import 'package:colorplanet/features/splash/presentation/widgets/splash_progress.dart';
 import 'package:colorplanet/features/home/presentation/pages/home_page.dart';
 
+/// SplashContent类
+///
+/// 加载页面的主体内容组件
+/// 包含应用图标、应用名称和加载进度条，提供从启动页到首页的过渡动画
 class SplashContent extends StatelessWidget {
   const SplashContent({super.key});
 

@@ -4,6 +4,11 @@ import 'package:colorplanet/features/home/presentation/widgets/category_section.
 import 'package:colorplanet/features/home/presentation/widgets/coloring_grid_section.dart';
 import 'package:colorplanet/features/home/presentation/widgets/bottom_nav_section.dart';
 
+/// HomeContent类
+///
+/// 首页的主体内容组件
+/// 包含轮播图、分类列表、涂色图片网格和底部导航栏四个部分
+/// 管理首页的状态和布局结构
 class HomeContent extends StatefulWidget {
   const HomeContent({super.key});
 

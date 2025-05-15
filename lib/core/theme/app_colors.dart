@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 
-/// 应用程序主题颜色管理类
-/// 
-/// 定义了应用程序中使用的所有主题颜色，包括：
-/// - 主色调
-/// - 背景色
-/// - 文本颜色
-/// - 进度条颜色
-/// 
-/// 这些颜色用于保持应用程序UI风格的一致性
+/// AppColors类
+///
+/// 应用程序的颜色常量集合
+/// 统一管理整个应用的颜色方案，便于主题更换和维护
 class AppColors {
   // 主色调
   static const Color primary = Color(0xFF2487FF);
